@@ -1,0 +1,206 @@
+
+ .instagram-header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+
+.instagram-header h1{
+    font-family: 'FontInsta',sans-serif;
+    letter-spacing: 2px;
+  }
+  
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+  
+  
+.search-bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+.icons img {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    transition: transform 0.5s ease;
+  }
+  
+  .hidden{
+    display: none;
+  }
+
+.profile {
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    gap: 100px;
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+  
+.profile img {
+    max-width: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: linear-gradient(135deg, #fd5e53, #f16167);
+    padding: 3px;
+}
+
+.profileName{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.profileName p {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+   
+.profile ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+.profile ul li {
+    color: #555;
+  }
+
+.profileBienvenue {
+    text-align: left;
+    margin-top: 10px;
+    padding: 0 20px;
+    
+  }
+  
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr)); 
+    gap: 15px;
+    margin: 15px;
+
+    
+}
+.post {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.imgPubli img {
+  max-width: 100%;
+  /* height: auto; */
+  border-radius: 5px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.iconsPost{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.iconsPost img{
+  width: 20px;
+  height: 20px;
+}
+
+.post a{
+  text-decoration: none;
+  color: inherit;
+}
+.spanLike{
+  display: flex;
+  align-items: center;
+}
+  
+
+.spanLike img{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.spanLike strong{
+  margin-right: 5px;
+}
+
+h3{
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+  
+
+footer {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+  }

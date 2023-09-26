@@ -1,0 +1,28 @@
+@import url('../styles/index.css');
+
+
+
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+  }
+
+@font-face {
+    font-family: 'FontInsta';
+    src: url(../assets/font/BrushScriptOpti-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+ 
+
+
+  
+  
