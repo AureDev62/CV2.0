@@ -1,0 +1,15 @@
+.divFormations{
+    margin: 100px auto;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
